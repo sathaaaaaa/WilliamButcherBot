@@ -116,7 +116,7 @@ async def help_command(_, message):
                     ),
                     InlineKeyboardButton(
                         text="Repo 🛠",
-                        url="https://github.com/thehamkercat/WilliamButcherBot",
+                        url="https://github.com/mearnin/usergecustom",
                     ),
                 ],
                 [
@@ -125,7 +125,7 @@ async def help_command(_, message):
                         callback_data="stats_callback",
                     ),
                     InlineKeyboardButton(
-                        text="Support 👨", url="t.me/WBBSupport"
+                        text="Support 👨", url="t.me/GRAPEEER"
                     ),
                 ],
             ]
@@ -142,7 +142,7 @@ async def help_command(_, message):
                 ),
                 InlineKeyboardButton(
                     text="Repo 🛠",
-                    url="https://github.com/thehamkercat/WilliamButcherBot",
+                    url="https://github.com/mearnin/usergecustom",
                 ),
             ],
             [
@@ -151,7 +151,7 @@ async def help_command(_, message):
                     callback_data="stats_callback",
                 ),
                 InlineKeyboardButton(
-                    text="Support 👨", url="http://t.me/WBBSupport"
+                    text="Support 👨", url="https://t.me/GRAPEEER"
                 ),
             ],
             [
