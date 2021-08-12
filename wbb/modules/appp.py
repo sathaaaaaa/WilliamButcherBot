@@ -9,7 +9,7 @@ _MODULE_= "Apps"
 _HELP_="""To search an app on playstore"""
     
     
-@app.on_message(filters.commnad("ply"))
+@app.on_message(filters.command("ply"))
 async def send_app(_, message):        
         text = get_text(message)
         mg = await edit_or_reply(message, "`Searching...`")
