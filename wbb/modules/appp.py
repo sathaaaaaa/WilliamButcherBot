@@ -30,7 +30,7 @@ async def send_app(_, message):
             'div', 'Vpfmgd').findNext('div', 'vU6FJ p63iDd').a['href']
         app_icon = results[0].findNext('div', 'Vpfmgd').findNext('div', 'uzcko').img['data-src']
         support = "@countdraculasupport"
-        app_details = f"[📲]({app_icon}) **{app_name}**\n\n"
+        app_details = f"[💈]({app_icon}) **{app_name}**\n\n"
         app_details += f"`Developer :` [{app_dev}]({app_dev_link})\n"
         app_details += f"`Rating :` {app_rating}\n"
         app_details += f"`Features :` [View in Play Store]({app_link})"
