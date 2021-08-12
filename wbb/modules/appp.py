@@ -4,7 +4,7 @@ import bs4
 import aiohttp
 import requests
 
-    _MODULE_="App"
+    _MODULE_="Play Store"
     _HELP_="To search an app on playstore"
     
     
