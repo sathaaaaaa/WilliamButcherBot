@@ -10,9 +10,9 @@ _HELP_="""To search an app on playstore"""
     
     
 @app.on_message(filters.command("ply"))
-async def send_app(client, message):        
+async def send_app(_, message):        
         text = get_text(message)
-        mg = await edit_or_reply(message, "`Searching...`")
+        await message.reply_text("`Searching...`")
         app_name = '+'.join(text.split(' '))
         page = requests.get(f"https://play.google.com/store/search?q={app_name}&c=apps")
         soup = bs4.BeautifulSoup(page.content, 'lxml', from_encoding='utf-8')
