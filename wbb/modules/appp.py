@@ -6,7 +6,7 @@ import aiohttp
 import requests
 
 _MODULE_ = "App"
-_HELP_ = """To search an app on playstore"""
+_HELP_ = "To search an app on playstore"
     
     
 @app.on_message(filters.command("ply"))
