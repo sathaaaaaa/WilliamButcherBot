@@ -85,7 +85,7 @@ thehamkercat@arch:~$ python3 str_gen.py
 
 <p align="center">
     <a href="https://heroku.com/deploy?template=https://github.com/thehamkercat/WilliamButcherBot"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
-    [![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/sathaaaaaa/WilliamButcherBot/tree/dev&envs=API_HASH,API_ID,ARQ_API_KEY,ARQ_API_URL,BOT_TOKEN,FERNET_ENCRYPTION_KEY,GBAN_LOG_GROUP_ID,LOG_GROUP_ID,LOG_MENTIONS,MESSAGE_DUMP_CHAT,MONGO_DB_URI,PM_PERMIT,RSS_DELAY,SESSION_STRING,SUDO_USERS_ID,USERBOT_PREFIX,WELCOME_DELAY_KICK_SEC)
+    <a href="https://railway.app/new/template?template=https://github.com/sathaaaaaa/WilliamButcherBot/tree/dev&envs=API_HASH,API_ID,ARQ_API_KEY,ARQ_API_URL,BOT_TOKEN,FERNET_ENCRYPTION_KEY,GBAN_LOG_GROUP_ID,LOG_GROUP_ID,LOG_MENTIONS,MESSAGE_DUMP_CHAT,MONGO_DB_URI,PM_PERMIT,RSS_DELAY,SESSION_STRING,SUDO_USERS_ID,USERBOT_PREFIX,WELCOME_DELAY_KICK_SEC">
 </p>
 
 <h1 align="center"> 
